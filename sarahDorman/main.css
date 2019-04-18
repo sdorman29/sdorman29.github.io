@@ -1,0 +1,55 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+            
+            .grid-container {
+              display: grid;
+              grid-template-areas:
+                'header header header header header header'
+                'menu main main main main main'
+                'menu main main main main main';
+              grid-gap: 10px;
+              background-color: white;
+              padding: 10px;
+            }
+            
+            .grid-container > div {
+              background-image: url(paint\ background\ copy.jpeg);
+              padding: 20px;
+              font-size: 30px;
+            }
+
+
+body{
+  font-size: 20px;
+}
+.grid-container > div {
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.b {font-weight: bolder;
+  font-size: 15px;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+div{
+opacity: 1;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+li,ul{
+  font-size: 12px;
+}
+h2{
+  font-size: 20px;
+}
+
+p{
+  font-size: 12px;
+}
